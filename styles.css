@@ -1,0 +1,82 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background: #0f0f0f;
+    color: #fff;
+}
+
+/* Header */
+header {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ff3d00;
+}
+
+header h1 {
+    color: #ff3d00;
+}
+
+/* Container */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Movie Title */
+.container h2 {
+    margin-bottom: 15px;
+    color: #ffcc00;
+}
+
+/* Image */
+.movie-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Details */
+.details p {
+    margin: 8px 0;
+}
+
+/* Rating */
+.details p:last-child {
+    color: gold;
+    font-size: 18px;
+}
+
+/* Review */
+.review {
+    margin-top: 20px;
+    line-height: 1.6;
+    color: #ccc;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #111;
+    margin-top: 30px;
+    color: #aaa;
+}
+
+/* Hover effect */
+.container:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
